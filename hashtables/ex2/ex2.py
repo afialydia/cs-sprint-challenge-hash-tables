@@ -10,7 +10,7 @@ def reconstruct_trip(tickets, length):
     YOUR CODE HERE
     """
     route = []
-    cache={}
+    cache={} #<- created a dictionary or hashtable to store my values
 
     for indi_tick in tickets: # <- for each instance of the Ticket class in the tickets array I'm going to do the following
         cache[indi_tick.source] = indi_tick.destination # <- mapping their source and destination as the key and value pairs in the dictionary/hash table
