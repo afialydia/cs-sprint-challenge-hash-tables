@@ -23,11 +23,20 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+    A hash function is a function that when given a key generates an address in a table. It's like a secret code that secures values in place. It's easily traversable and generally can produce a runtime of o(1).
+
 2. Collision resolution
+    When two or more items hash to the same location in a hash table a collision occurs. Open addressing is used to also linked list  
+
 3. Performance of basic hash table operations
+
 4. Load factor
+    The load factor is how much the hash table can store without resizing it. 
+
 5. Automatic resizing
+
 6. Various use cases for hash tables
+    Loading websites with cached data, 
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

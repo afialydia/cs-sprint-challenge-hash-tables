@@ -2,10 +2,39 @@ def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    # Your code here
+    # result = []
 
-    return result
+    # allnums = {}
 
+    # for array in arrays:
+    #     allnums[array] = array
+    #     for i in array:
+    #         if i in allnums.keys():
+    #             allnums[i] +=1
+    #         else:
+    #             allnums[i]=1
+            
+    #         num = allnums[i]
+
+            # if num > 1:
+            #     print(num)
+
+
+    # print(result)
+    print(allnums)
+
+
+
+
+    
+    #     result = []
+
+    #     if allnums[i] > 1:
+    #         result.append(i)    
+
+    # return result
+
+intersection([[1,2],[1,4,3],[1,6,5]])
 
 if __name__ == "__main__":
     arrays = []
